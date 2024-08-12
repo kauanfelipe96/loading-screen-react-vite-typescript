@@ -1,12 +1,15 @@
-import './App.css'
+import "./App.css";
+import React from "react";
+import Video from "./components/Video";
+import MusicPlayer from "./components/MusicPlayer";
 
-function App() {
- 
+const App: React.FC = () => {
   return (
-    <>
-    <h1 className='text-pink-500'>hello world</h1>
-    </>
-  )
-}
+    <div>
+      <Video />
+      <MusicPlayer />
+    </div>
+  );
+};
 
-export default App
+export default App;

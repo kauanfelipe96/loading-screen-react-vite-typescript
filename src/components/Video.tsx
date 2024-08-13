@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.gif";
+import logo from "../assets/logo.gif"
 
 const Video: React.FC = () => {
   return (

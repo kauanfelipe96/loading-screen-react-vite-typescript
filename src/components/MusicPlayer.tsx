@@ -10,7 +10,7 @@ const MusicPlayer: React.FC = () => {
     }
   }, []);
 
-  return <audio id="music" ref={audioRef}></audio>;
+  return <audio autoPlay id="music" ref={audioRef}  ></audio>;
 };
 
 export default MusicPlayer;

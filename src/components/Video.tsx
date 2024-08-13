@@ -19,7 +19,7 @@ const Video: React.FC = () => {
         </video>
         <div className="fixed top-0 left-0 object-cover w-full h-full z-20 flex items-center justify-center flex-col gap-3">
           <img className="rounded-2xl" src={logo} />
-          <h2 className="animate text-white font-semibold">LOADING</h2>
+          <h2 className="animate text-white font-semibold text-lg">LOADING</h2>
         </div>
       </div>
     </>

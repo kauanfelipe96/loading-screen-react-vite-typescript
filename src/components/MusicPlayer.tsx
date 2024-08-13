@@ -1,16 +1,20 @@
-import React, { useEffect, useRef } from "react";
-import { load } from "../music-player";
+import React, { useEffect } from "react";
+import song from '../assets/music.mp3';
 
 const MusicPlayer: React.FC = () => {
-  const audioRef = useRef<HTMLAudioElement>(null);
-
   useEffect(() => {
-    if (audioRef.current) {
-      load(audioRef.current);
+    const music = document.getElementById("music") as HTMLMediaElement;
+    if (music) {
+      music.volume = 0.5;
+      music.play().catch(error => {
+        console.error("Erro ao tentar reproduzir a música:", error);
+      });
     }
   }, []);
 
-  return <audio autoPlay id="music" ref={audioRef}  ></audio>;
+  return (
+    <audio autoPlay id="music" src={song} />
+  );
 };
 
 export default MusicPlayer;

@@ -1,18 +1,18 @@
 # Loading Screen React Vite TypeScript
 
-This project is a loading screen developed using React, Vite, and TypeScript. It was created to study scripts for FiveM and test my knowledge of frontend development with these technologies.
+This project is a customizable loading screen developed using React, Vite, and TypeScript. It was created as a study tool to enhance my skills in frontend development and explore integrations with FiveM scripts.
 
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
-- **Vite**: An ultra-fast build tool and bundler for frontend projects.
-- **TypeScript**: A superset of JavaScript that adds static typing to the code.
+- **Vite**: A lightning-fast build tool for modern web projects.
+- **TypeScript**: Adds static typing to JavaScript, improving code reliability.
 
 ## Features
 
-- Customizable loading screen.
-- Optimized and maintainable project structure.
-- Integration with FiveM scripts to enhance the development experience.
+- **Customizable Design**: Easily adapt the loading screen to your preferences.
+- **Optimized Project Structure**: Clean and maintainable code organization.
+- **FiveM Integration**: Designed to enhance the experience when developing for FiveM.
 
 ## How to Run
 
